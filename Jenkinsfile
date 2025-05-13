@@ -37,7 +37,7 @@ pipeline {
                 // Publish the TestNG report as an artifact
                 publishHTML (target: [
                     reportName: 'TestNG Report',
-                    reportDir: 'target/', // Ensure this matches your test report directory
+                    reportDir: 'target/surefire-reports', // Ensure this matches your test report directory
                     reportFiles: 'index.html',
                     keepAll: true
                 ])

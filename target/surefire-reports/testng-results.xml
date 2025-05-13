@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-13T23:09:19 IST" name="Suite" finished-at="2025-05-13T23:09:37 IST" duration-ms="17642">
+  <suite started-at="2025-05-13T23:40:43 IST" name="Suite" finished-at="2025-05-13T23:40:59 IST" duration-ms="16337">
     <groups>
     </groups>
-    <test started-at="2025-05-13T23:09:19 IST" name="xyz" finished-at="2025-05-13T23:09:37 IST" duration-ms="17642">
+    <test started-at="2025-05-13T23:40:43 IST" name="xyz" finished-at="2025-05-13T23:40:59 IST" duration-ms="16337">
       <class name="test.Sauce">
-        <test-method signature="TestRemote()[pri:0, instance:test.Sauce@506ae4d4]" started-at="2025-05-13T23:09:19 IST" name="TestRemote" finished-at="2025-05-13T23:09:24 IST" duration-ms="5003" status="PASS">
+        <test-method signature="TestRemote()[pri:0, instance:test.Sauce@72e5a8e]" started-at="2025-05-13T23:40:43 IST" name="TestRemote" finished-at="2025-05-13T23:40:47 IST" duration-ms="4648" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestRemote -->
-        <test-method signature="testPagination()[pri:0, instance:test.Sauce@506ae4d4]" started-at="2025-05-13T23:09:24 IST" name="testPagination" finished-at="2025-05-13T23:09:34 IST" depends-on-methods="test.Sauce.TestRemote" duration-ms="9841" status="PASS">
+        <test-method signature="testPagination()[pri:0, instance:test.Sauce@72e5a8e]" started-at="2025-05-13T23:40:47 IST" name="testPagination" finished-at="2025-05-13T23:40:56 IST" depends-on-methods="test.Sauce.TestRemote" duration-ms="8920" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPagination -->
-        <test-method is-config="true" signature="destroy()[pri:0, instance:test.Sauce@506ae4d4]" started-at="2025-05-13T23:09:34 IST" name="destroy" finished-at="2025-05-13T23:09:37 IST" duration-ms="2761" status="PASS">
+        <test-method is-config="true" signature="destroy()[pri:0, instance:test.Sauce@72e5a8e]" started-at="2025-05-13T23:40:56 IST" name="destroy" finished-at="2025-05-13T23:40:59 IST" duration-ms="2733" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- destroy -->
