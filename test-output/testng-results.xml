@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-13T22:39:39 IST" name="Default suite" finished-at="2025-05-13T22:39:56 IST" duration-ms="16985">
+  <suite started-at="2025-05-13T23:17:33 IST" name="Suite" finished-at="2025-05-13T23:17:49 IST" duration-ms="16450">
     <groups>
     </groups>
-    <test started-at="2025-05-13T22:39:39 IST" name="Default test" finished-at="2025-05-13T22:39:56 IST" duration-ms="16985">
+    <test started-at="2025-05-13T23:17:33 IST" name="xyz" finished-at="2025-05-13T23:17:49 IST" duration-ms="16450">
       <class name="test.Sauce">
-        <test-method signature="TestRemote()[pri:0, instance:test.Sauce@7c24b813]" started-at="2025-05-13T22:39:39 IST" name="TestRemote" finished-at="2025-05-13T22:39:45 IST" duration-ms="5478" status="PASS">
+        <test-method signature="TestRemote()[pri:0, instance:test.Sauce@7c24b813]" started-at="2025-05-13T23:17:33 IST" name="TestRemote" finished-at="2025-05-13T23:17:38 IST" duration-ms="4641" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestRemote -->
-        <test-method signature="testPagination()[pri:0, instance:test.Sauce@7c24b813]" started-at="2025-05-13T22:39:45 IST" name="testPagination" finished-at="2025-05-13T22:39:54 IST" depends-on-methods="test.Sauce.TestRemote" duration-ms="9289" status="PASS">
+        <test-method signature="testPagination()[pri:0, instance:test.Sauce@7c24b813]" started-at="2025-05-13T23:17:38 IST" name="testPagination" finished-at="2025-05-13T23:17:47 IST" depends-on-methods="test.Sauce.TestRemote" duration-ms="9299" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPagination -->
-        <test-method is-config="true" signature="destroy()[pri:0, instance:test.Sauce@7c24b813]" started-at="2025-05-13T22:39:54 IST" name="destroy" finished-at="2025-05-13T22:39:56 IST" duration-ms="2192" status="PASS">
+        <test-method is-config="true" signature="destroy()[pri:0, instance:test.Sauce@7c24b813]" started-at="2025-05-13T23:17:47 IST" name="destroy" finished-at="2025-05-13T23:17:49 IST" duration-ms="2479" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- destroy -->
       </class> <!-- test.Sauce -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- xyz -->
+  </suite> <!-- Suite -->
 </testng-results>
