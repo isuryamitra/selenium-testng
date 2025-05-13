@@ -17,8 +17,8 @@ pipeline {
         stage('Build') {
             steps {
                 script {
-                    // Build the project using Maven
-                    sh 'mvn clean compile'
+                    // Build the project using Maven (use bat on Windows)
+                    bat 'mvn clean compile'
                 }
             }
         }
@@ -26,8 +26,8 @@ pipeline {
         stage('Test') {
             steps {
                 script {
-                    // Run the tests with Maven and TestNG
-                    sh 'mvn test'
+                    // Run the tests with Maven and TestNG (use bat on Windows)
+                    bat 'mvn test'
                 }
             }
         }
@@ -37,7 +37,7 @@ pipeline {
                 // Publish the TestNG report as an artifact
                 publishHTML (target: [
                     reportName: 'TestNG Report',
-                    reportDir: 'target/',
+                    reportDir: 'target/', // Ensure this matches your test report directory
                     reportFiles: 'index.html',
                     keepAll: true
                 ])
